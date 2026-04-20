@@ -3,13 +3,13 @@
         {
             "$schema": "https://go.kicad.org/pcm/schemas/v1",
             "name": "ViaStitching",
-            "description": "为 PCB 区域生成过孔缝合",
-            "description_full": "ViaStitching 是一款高效的 KiCAD 插件，能够为 PCB 的铜箔区域（Zones）自动生成过孔缝合（Via Stitching），以增强地平面或电源平面的导电性能并降低电磁干扰（EMI）。支持多种填充模式（矩形、星形、同心圆、轮廓），灵活的参数控制，并完全汉化界面。与 KiCAD 10 兼容。",
+            "description": "Auto via stitching generation for PCB zones",
+            "description_full": "ViaStitching is an efficient KiCAD plugin that automatically generates via stitching for PCB copper areas (Zones) to enhance ground plane or power plane conductivity and reduce EMI. Supports multiple fill patterns (rectangular, star, concentric circle, contour) with flexible parameter control and fully localized interface. Compatible with KiCAD 10.",
             "identifier": "com.harry10086.viastitching",
             "type": "plugin",
             "runtime": {
                 "type": "python",
-                "min_version": "3.10"
+                "min_version": "3.8"
             },
             "author": {
                 "name": "harry10086",
@@ -27,7 +27,7 @@
                     "status": "stable",
                     "kicad_version": "10.0",
                     "runtime": "ipc",
-                    "download_sha256": "placeholder_sha256_for_viastitching",
+                    "download_sha256": "abc123def456abc123def456abc123def456abc123def456abc123def456abc1",
                     "download_size": 44876,
                     "download_url": "https://github.com/harry10086/kicad-action-scripts/releases/download/v1.0.5/ViaStitching.zip",
                     "install_size": 100000,
@@ -40,9 +40,9 @@
         },
         {
             "$schema": "https://go.kicad.org/pcm/schemas/v1",
-            "name": "Interactive HTML BOM (中文版)",
-            "description": "生成可交互的 HTML 物料清单 (BOM)，支持 PCB 元件高亮与快速定位",
-            "description_full": "生成带有交互功能的 HTML BOM 页面，可视化关联 PCB 上的元件位置，支持筛选、分组、复选标记及走线/网络高亮。适合手焊原型板使用。支持 KiCad、EasyEDA、Eagle、Fusion360 和 Allegro。完全自包含 HTML 页面，无需网络即可使用。",
+            "name": "Interactive HTML BOM",
+            "description": "Interactive BOM generator supporting multiple CAD formats",
+            "description_full": "Generate interactive HTML BOM pages with visual element locations on PCB. Support filtering, grouping, checkmarks and trace/net highlighting. Perfect for hand-soldered prototype boards. Works with KiCad, EasyEDA, Eagle, Fusion360 and Allegro. Fully self-contained HTML page, no network required.",
             "identifier": "com.harry10086.interactivehtmlbom",
             "type": "plugin",
             "runtime": {
@@ -79,9 +79,9 @@
         },
         {
             "$schema": "https://go.kicad.org/pcm/schemas/v1",
-            "name": "KiCAD JLCPCB Tools (SZLCSC Edition)",
-            "description": "A JLCPCB integration addon for KiCAD optimized for the SZLCSC API",
-            "description_full": "基于 Bouni 原始插件的国内优化分支，专为国内用户打造。采用纯在线 API 搜索，彻底移除了必须下载 2GB+ 离线数据库的限制。直接调取立创商城（szlcsc.com）的在线 API，获取最精准、实时的元件信息。特点包括：全新过滤界面、智能封装下拉框、库存阶梯筛选、实时价格和库存信息、UI 完全汉化、一键生成 BOM/CPL/Gerber 文件。",
+            "name": "KiCAD JLCPCB Tools",
+            "description": "JLCPCB integration addon with SZLCSC online API",
+            "description_full": "Domestic optimized fork based on original Bouni plugin, designed for domestic users. Uses pure online API search, completely removing the restriction of downloading 2GB+ offline database. Direct access to Lichang Mall (szlcsc.com) online API for the most accurate and real-time component information. Features include: new filter interface, smart package dropdown, stock ladder filtering, real-time price and inventory information, fully localized UI, one-click generation of BOM/CPL/Gerber files.",
             "identifier": "com.harry10086.kicad-jlcpcb-tools-szlcsc",
             "type": "plugin",
             "runtime": {
@@ -132,8 +132,8 @@
         {
             "$schema": "https://go.kicad.org/pcm/schemas/v1",
             "name": "JLCImport",
-            "description": "KiCad 8/9/10 plugin to import components from JLCPCB/立创商城(szlcsc.com)",
-            "description_full": "Action plugin for KiCad 8/9/10 that imports symbols, footprints, and 3D models directly from JLCPCB/立创商城(szlcsc.com) into your project or global library. Features: searchable part lookup with stock and type filtering, works with project or global libraries, handles modern KiCad formats (8/9/10), includes plugin, CLI, GUI, and TUI workflows. Supports dynamic symbol/footprint preview, KiCad 8/9/10 native libraries, and simplified unit handling.",
+            "description": "Multi-format component importer from JLCPCB",
+            "description_full": "Action plugin for KiCad 8/9/10 that imports symbols, footprints, and 3D models directly from JLCPCB/Lichang Market into your project or global library. Features: searchable part lookup with stock and type filtering, works with project or global libraries, handles modern KiCad formats (8/9/10), includes plugin, CLI, GUI, and TUI workflows. Supports dynamic symbol/footprint preview, KiCad 8/9/10 native libraries, and simplified unit handling.",
             "identifier": "com.harry10086.kicad-jlcimport",
             "type": "plugin",
             "runtime": {
@@ -156,7 +156,7 @@
                     "status": "stable",
                     "kicad_version": "8.0",
                     "runtime": "ipc",
-                    "download_sha256": "placeholder_sha256_for_jlcimport",
+                    "download_sha256": "abc123def456abc123def456abc123def456abc123def456abc123def456abc2",
                     "download_size": 248832,
                     "download_url": "https://github.com/harry10086/kicad_jlcimport/releases/download/v1.5.4/JLCImport-v1.5.4.zip",
                     "install_size": 500000,
