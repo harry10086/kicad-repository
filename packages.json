@@ -1,172 +1,144 @@
 {
-    "packages": [
-        {
-            "$schema": "https://go.kicad.org/pcm/schemas/v1",
-            "name": "ViaStitching",
-            "description": "Auto via stitching generation for PCB zones",
-            "description_full": "ViaStitching is an efficient KiCAD plugin that automatically generates via stitching for PCB copper areas (Zones) to enhance ground plane or power plane conductivity and reduce EMI. Supports multiple fill patterns (rectangular, star, concentric circle, contour) with flexible parameter control and fully localized interface. Compatible with KiCAD 10.",
-            "identifier": "com.harry10086.viastitching",
-            "type": "plugin",
-            "runtime": {
-                "type": "python",
-                "min_version": "3.8"
-            },
-            "author": {
-                "name": "harry10086",
-                "contact": {
-                    "github": "https://github.com/harry10086"
-                }
-            },
-            "license": "GPL-2.0+",
-            "resources": {
-                "homepage": "https://github.com/harry10086/kicad-action-scripts"
-            },
-            "versions": [
-                {
-                    "version": "1.0.5",
-                    "status": "stable",
-                    "kicad_version": "10.0",
-                    "runtime": "ipc",
-                    "download_sha256": "abc123def456abc123def456abc123def456abc123def456abc123def456abc1",
-                    "download_size": 44876,
-                    "download_url": "https://github.com/harry10086/kicad-action-scripts/releases/download/v1.0.5/ViaStitching.zip",
-                    "install_size": 100000,
-                    "platforms": [
-                        "windows",
-                        "linux"
-                    ]
-                }
-            ]
-        },
-        {
-            "$schema": "https://go.kicad.org/pcm/schemas/v1",
-            "name": "Interactive HTML BOM",
-            "description": "Interactive BOM generator supporting multiple CAD formats",
-            "description_full": "Generate interactive HTML BOM pages with visual element locations on PCB. Support filtering, grouping, checkmarks and trace/net highlighting. Perfect for hand-soldered prototype boards. Works with KiCad, EasyEDA, Eagle, Fusion360 and Allegro. Fully self-contained HTML page, no network required.",
-            "identifier": "com.harry10086.interactivehtmlbom",
-            "type": "plugin",
-            "runtime": {
-                "type": "python",
-                "min_version": "3.8"
-            },
-            "author": {
-                "name": "harry10086",
-                "contact": {
-                    "github": "https://github.com/harry10086"
-                }
-            },
-            "license": "MIT",
-            "resources": {
-                "homepage": "https://github.com/harry10086/InteractiveHtmlBom"
-            },
-            "versions": [
-                {
-                    "version": "2.11.1",
-                    "status": "stable",
-                    "kicad_version": "7.0",
-                    "runtime": "ipc",
-                    "download_sha256": "95310b7315ff535a0c390e814e731b8d1c6506ab1bb607b9d9d7afed2d452b4b",
-                    "download_size": 159689,
-                    "download_url": "https://github.com/harry10086/InteractiveHtmlBom/releases/download/v2.11.1-zh/InteractiveHtmlBom_v2.11.1-zh_pcm.zip",
-                    "install_size": 730306,
-                    "platforms": [
-                        "windows",
-                        "linux",
-                        "macos"
-                    ]
-                }
-            ]
-        },
-        {
-            "$schema": "https://go.kicad.org/pcm/schemas/v1",
-            "name": "KiCAD JLCPCB Tools",
-            "description": "JLCPCB integration addon with SZLCSC online API",
-            "description_full": "Domestic optimized fork based on original Bouni plugin, designed for domestic users. Uses pure online API search, completely removing the restriction of downloading 2GB+ offline database. Direct access to Lichang Mall (szlcsc.com) online API for the most accurate and real-time component information. Features include: new filter interface, smart package dropdown, stock ladder filtering, real-time price and inventory information, fully localized UI, one-click generation of BOM/CPL/Gerber files.",
-            "identifier": "com.harry10086.kicad-jlcpcb-tools-szlcsc",
-            "type": "plugin",
-            "runtime": {
-                "type": "python",
-                "min_version": "3.8"
-            },
-            "author": {
-                "name": "harry10086",
-                "contact": {
-                    "github": "https://github.com/harry10086"
-                }
-            },
-            "license": "MIT",
-            "resources": {
-                "homepage": "https://github.com/harry10086/kicad-jlcpcb-tools"
-            },
-            "versions": [
-                {
-                    "version": "3.9.0",
-                    "status": "testing",
-                    "kicad_version": "6.0",
-                    "runtime": "ipc",
-                    "download_sha256": "96463b7c792fb2987e5ea54d00faeacf694450d4dd676880552d7d8461c53fc6",
-                    "download_size": 206664,
-                    "download_url": "https://github.com/harry10086/kicad-jlcpcb-tools/releases/download/v3.9.0/KiCAD-PCM-3.9.0.zip",
-                    "install_size": 614884,
-                    "platforms": [
-                        "windows",
-                        "linux"
-                    ]
-                },
-                {
-                    "version": "3.7.8",
-                    "status": "stable",
-                    "kicad_version": "6.0",
-                    "runtime": "ipc",
-                    "download_sha256": "ea7ff43f5f4e034c64cdedb38eb92e93e5cfb71308f1ac372ea3b0135c038e56",
-                    "download_size": 206715,
-                    "download_url": "https://github.com/harry10086/kicad-jlcpcb-tools/releases/download/v3.7.8/KiCAD-PCM-3.7.8.zip",
-                    "install_size": 615351,
-                    "platforms": [
-                        "windows",
-                        "linux"
-                    ]
-                }
-            ]
-        },
-        {
-            "$schema": "https://go.kicad.org/pcm/schemas/v1",
-            "name": "JLCImport",
-            "description": "Multi-format component importer from JLCPCB",
-            "description_full": "Action plugin for KiCad 8/9/10 that imports symbols, footprints, and 3D models directly from JLCPCB/Lichang Market into your project or global library. Features: searchable part lookup with stock and type filtering, works with project or global libraries, handles modern KiCad formats (8/9/10), includes plugin, CLI, GUI, and TUI workflows. Supports dynamic symbol/footprint preview, KiCad 8/9/10 native libraries, and simplified unit handling.",
-            "identifier": "com.harry10086.kicad-jlcimport",
-            "type": "plugin",
-            "runtime": {
-                "type": "python",
-                "min_version": "3.8"
-            },
-            "author": {
-                "name": "harry10086",
-                "contact": {
-                    "github": "https://github.com/harry10086"
-                }
-            },
-            "license": "MIT",
-            "resources": {
-                "homepage": "https://github.com/harry10086/kicad_jlcimport"
-            },
-            "versions": [
-                {
-                    "version": "1.5.4",
-                    "status": "stable",
-                    "kicad_version": "8.0",
-                    "runtime": "ipc",
-                    "download_sha256": "abc123def456abc123def456abc123def456abc123def456abc123def456abc2",
-                    "download_size": 248832,
-                    "download_url": "https://github.com/harry10086/kicad_jlcimport/releases/download/v1.5.4/JLCImport-v1.5.4.zip",
-                    "install_size": 500000,
-                    "platforms": [
-                        "windows",
-                        "linux",
-                        "macos"
-                    ]
-                }
-            ]
+  "packages": [
+    {
+      "$schema": "https://go.kicad.org/pcm/schemas/v1",
+      "name": "ViaStitching",
+      "description": "Auto via stitching generation for PCB zones",
+      "description_full": "ViaStitching is an efficient KiCAD plugin that automatically generates via stitching for PCB copper areas (Zones) to enhance ground plane or power plane conductivity and reduce EMI.",
+      "identifier": "com.harry10086.viastitching",
+      "type": "plugin",
+      "runtime": {
+        "type": "python",
+        "min_version": "3.8"
+      },
+      "author": {
+        "name": "harry10086",
+        "contact": {
+          "github": "https://github.com/harry10086"
         }
-    ]
+      },
+      "license": "GPL-2.0+",
+      "resources": {
+        "homepage": "https://github.com/harry10086/kicad-action-scripts"
+      },
+      "versions": [
+        {
+          "version": "1.0.5",
+          "status": "stable",
+          "kicad_version": "10.0",
+          "runtime": "ipc",
+          "download_sha256": "abc123def456abc123def456abc123def456abc123def456abc123def456abc1",
+          "download_size": 44876,
+          "download_url": "https://github.com/harry10086/kicad-action-scripts/releases/download/v1.0.5/ViaStitching.zip",
+          "install_size": 100000,
+          "platforms": ["windows", "linux"]
+        }
+      ]
+    },
+    {
+      "$schema": "https://go.kicad.org/pcm/schemas/v1",
+      "name": "Interactive HTML BOM",
+      "description": "Interactive BOM generator supporting multiple CAD formats",
+      "description_full": "Generate interactive HTML BOM pages with visual element locations on PCB. Supports KiCad, EasyEDA, Eagle, Fusion360 and Allegro.",
+      "identifier": "com.harry10086.interactivehtmlbom",
+      "type": "plugin",
+      "runtime": {
+        "type": "python",
+        "min_version": "3.8"
+      },
+      "author": {
+        "name": "harry10086",
+        "contact": {
+          "github": "https://github.com/harry10086"
+        }
+      },
+      "license": "MIT",
+      "resources": {
+        "homepage": "https://github.com/harry10086/InteractiveHtmlBom"
+      },
+      "versions": [
+        {
+          "version": "2.11.1",
+          "status": "stable",
+          "kicad_version": "7.0",
+          "runtime": "ipc",
+          "download_sha256": "95310b7315ff535a0c390e814e731b8d1c6506ab1bb607b9d9d7afed2d452b4b",
+          "download_size": 159689,
+          "download_url": "https://github.com/harry10086/InteractiveHtmlBom/releases/download/v2.11.1-zh/InteractiveHtmlBom_v2.11.1-zh_pcm.zip",
+          "install_size": 730306,
+          "platforms": ["windows", "linux", "macos"]
+        }
+      ]
+    },
+    {
+      "$schema": "https://go.kicad.org/pcm/schemas/v1",
+      "name": "KiCAD JLCPCB Tools",
+      "description": "JLCPCB integration addon with SZLCSC online API",
+      "description_full": "Domestic optimized fork with pure online API search. Direct access to SZLCSC online API for accurate and real-time component information.",
+      "identifier": "com.harry10086.kicad-jlcpcb-tools-szlcsc",
+      "type": "plugin",
+      "runtime": {
+        "type": "python",
+        "min_version": "3.8"
+      },
+      "author": {
+        "name": "harry10086",
+        "contact": {
+          "github": "https://github.com/harry10086"
+        }
+      },
+      "license": "MIT",
+      "resources": {
+        "homepage": "https://github.com/harry10086/kicad-jlcpcb-tools"
+      },
+      "versions": [
+        {
+          "version": "3.9.0",
+          "status": "testing",
+          "kicad_version": "6.0",
+          "runtime": "ipc",
+          "download_sha256": "96463b7c792fb2987e5ea54d00faeacf694450d4dd676880552d7d8461c53fc6",
+          "download_size": 206664,
+          "download_url": "https://github.com/harry10086/kicad-jlcpcb-tools/releases/download/v3.9.0/KiCAD-PCM-3.9.0.zip",
+          "install_size": 614884,
+          "platforms": ["windows", "linux"]
+        }
+      ]
+    },
+    {
+      "$schema": "https://go.kicad.org/pcm/schemas/v1",
+      "name": "JLCImport",
+      "description": "Multi-format component importer from JLCPCB",
+      "description_full": "Action plugin for KiCad 8/9/10 that imports symbols, footprints, and 3D models directly from JLCPCB into your project or global library.",
+      "identifier": "com.harry10086.kicad-jlcimport",
+      "type": "plugin",
+      "runtime": {
+        "type": "python",
+        "min_version": "3.8"
+      },
+      "author": {
+        "name": "harry10086",
+        "contact": {
+          "github": "https://github.com/harry10086"
+        }
+      },
+      "license": "MIT",
+      "resources": {
+        "homepage": "https://github.com/harry10086/kicad_jlcimport"
+      },
+      "versions": [
+        {
+          "version": "1.5.4",
+          "status": "stable",
+          "kicad_version": "8.0",
+          "runtime": "ipc",
+          "download_sha256": "abc123def456abc123def456abc123def456abc123def456abc123def456abc2",
+          "download_size": 248832,
+          "download_url": "https://github.com/harry10086/kicad_jlcimport/releases/download/v1.5.4/JLCImport-v1.5.4.zip",
+          "install_size": 500000,
+          "platforms": ["windows", "linux", "macos"]
+        }
+      ]
+    }
+  ]
 }
