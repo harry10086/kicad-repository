@@ -19,8 +19,7 @@
       },
       "license": "GPL-2.0",
       "resources": {
-        "homepage": "https://github.com/harry10086/kicad-action-scripts",
-        "icon": "https://github.mianao.info/https://raw.githubusercontent.com/harry10086/kicad-action-scripts/master/resources/icon.png"
+        "homepage": "https://github.com/harry10086/kicad-action-scripts"
       },
       "versions": [
         {
@@ -58,10 +57,24 @@
       },
       "license": "MIT",
       "resources": {
-        "homepage": "https://github.com/harry10086/InteractiveHtmlBom",
-        "icon": "https://github.mianao.info/https://raw.githubusercontent.com/harry10086/InteractiveHtmlBom/master/releases/resources/icon.png"
+        "homepage": "https://github.com/harry10086/InteractiveHtmlBom"
       },
       "versions": [
+        {
+          "version": "2.11.2",
+          "status": "stable",
+          "kicad_version": "7.0",
+          "runtime": "ipc",
+          "download_sha256": "412a11b05fcfb5b5206635764b6694d12fffc2d5cb4d13df4c862140892a7594",
+          "download_size": 155459,
+          "download_url": "https://github.com/harry10086/InteractiveHtmlBom/releases/download/v2.11.2/InteractiveHtmlBom_v2.11.2_pcm.zip",
+          "install_size": 310918,
+          "platforms": [
+            "windows",
+            "linux",
+            "macos"
+          ]
+        },
         {
           "version": "2.11.1",
           "status": "stable",
@@ -98,8 +111,7 @@
       },
       "license": "MIT",
       "resources": {
-        "homepage": "https://github.com/harry10086/kicad-jlcpcb-tools",
-        "icon": "https://github.mianao.info/https://raw.githubusercontent.com/harry10086/kicad-jlcpcb-tools/main/jlcpcb-icon.png"
+        "homepage": "https://github.com/harry10086/kicad-jlcpcb-tools"
       },
       "versions": [
         {
@@ -152,8 +164,7 @@
       },
       "license": "MIT",
       "resources": {
-        "homepage": "https://github.com/harry10086/kicad_jlcimport",
-        "icon": "https://github.mianao.info/https://raw.githubusercontent.com/harry10086/kicad_jlcimport/main/resources/icon.png"
+        "homepage": "https://github.com/harry10086/kicad_jlcimport"
       },
       "versions": [
         {
