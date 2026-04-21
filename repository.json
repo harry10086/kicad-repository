@@ -8,9 +8,9 @@
   },
   "name": "Harry's KiCAD Plugin Repository",
   "packages": {
-    "sha256": "5c7f4beeed522b8f0516ef18f8ae2f7e71bacf7cf73ab840797f3de6ae787c80",
-    "update_time_utc": "2026-04-21 09:38:25",
-    "update_timestamp": 1776735505,
+    "sha256": "549b52e980f70c86c97c954acca0cb358805683ebb6099a96f631510f9763830",
+    "update_time_utc": "2026-04-21 10:48:03",
+    "update_timestamp": 1776768494,
     "url": "https://github.mianao.info/https://raw.githubusercontent.com/harry10086/kicad-repository/main/packages.json"
   },
   "resources": {

@@ -4,7 +4,7 @@
       "$schema": "https://go.kicad.org/pcm/schemas/v1",
       "name": "ViaStitching",
       "description": "Auto via stitching generation for PCB zones",
-      "description_full": "ViaStitching is an efficient KiCAD plugin that automatically generates via stitching for PCB copper areas (Zones) to enhance ground plane or power plane conductivity and reduce EMI.",
+      "description_full": "ViaStitching 是一款高效的 KiCAD 插件，能够为 PCB 的铜箔区域自动生成过孔缝合，以增强地平面或电源平面的导电性能并降低电磁干扰 (EMI)。",
       "identifier": "com.harry10086.viastitching",
       "type": "plugin",
       "runtime": {
@@ -12,9 +12,9 @@
         "min_version": "3.8"
       },
       "author": {
-        "name": "harry10086",
+        "name": "JS Reynaud (zh fork by harry)",
         "contact": {
-          "github": "https://github.com/harry10086"
+          "github": "https://github.com/jsreynaud/kicad-action-scripts"
         }
       },
       "license": "GPL-2.0",
@@ -42,7 +42,7 @@
       "$schema": "https://go.kicad.org/pcm/schemas/v1",
       "name": "Interactive HTML BOM",
       "description": "Interactive BOM generator supporting multiple CAD formats",
-      "description_full": "Generate interactive HTML BOM pages with visual element locations on PCB. Supports KiCad, EasyEDA, Eagle, Fusion360 and Allegro.",
+      "description_full": "生成带有交互功能的 HTML BOM 页面，可视化关联 PCB 上的元件位置，支持筛选、分组、复选标记及走线/网络高亮。适合手焊原型板使用。支持 KiCad、EasyEDA、Eagle、Fusion360 和 Allegro。",
       "identifier": "com.harry10086.interactivehtmlbom",
       "type": "plugin",
       "runtime": {
@@ -50,9 +50,9 @@
         "min_version": "3.8"
       },
       "author": {
-        "name": "harry10086",
+        "name": "qu1ck (zh fork by harry)",
         "contact": {
-          "github": "https://github.com/harry10086"
+          "github": "https://github.com/openscopeproject/InteractiveHtmlBom"
         }
       },
       "license": "MIT",
@@ -96,7 +96,7 @@
       "$schema": "https://go.kicad.org/pcm/schemas/v1",
       "name": "KiCAD JLCPCB Tools",
       "description": "JLCPCB integration addon with SZLCSC online API",
-      "description_full": "Domestic optimized fork with pure online API search. Direct access to SZLCSC online API for accurate and real-time component information.",
+      "description_full": "嘉立创 PCB 和 SMT 工具。Domestic optimized fork with pure online API search. Direct access to SZLCSC(立创商城) online API for accurate and real-time component information.",
       "identifier": "com.harry10086.kicad-jlcpcb-tools-szlcsc",
       "type": "plugin",
       "runtime": {
@@ -104,9 +104,9 @@
         "min_version": "3.8"
       },
       "author": {
-        "name": "harry10086",
+        "name": "Bouni (zh fork by harry)",
         "contact": {
-          "github": "https://github.com/harry10086"
+          "github": "https://github.com/Bouni/kicad-jlcpcb-tools"
         }
       },
       "license": "MIT",
@@ -149,7 +149,7 @@
       "$schema": "https://go.kicad.org/pcm/schemas/v1",
       "name": "JLCImport",
       "description": "Multi-format component importer from JLCPCB",
-      "description_full": "Action plugin for KiCad 8/9/10 that imports symbols, footprints, and 3D models directly from JLCPCB into your project or global library.",
+      "description_full": "Action plugin for KiCad 8/9/10 that imports symbols, footprints, and 3D models directly from JLCPCB/立创商城(szlcsc.com) into your project or global library.",
       "identifier": "com.harry10086.kicad-jlcimport",
       "type": "plugin",
       "runtime": {
@@ -157,9 +157,9 @@
         "min_version": "3.8"
       },
       "author": {
-        "name": "harry10086",
+        "name": "Josh Vanderberg (zh fork by harry)",
         "contact": {
-          "github": "https://github.com/harry10086"
+          "github": "https://github.com/jvanderberg/kicad_jlcimport"
         }
       },
       "license": "MIT",
