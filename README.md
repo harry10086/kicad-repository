@@ -15,7 +15,7 @@ To install plugins from this repository in KiCAD:
 ## Available Plugins
 
 - **ViaStitching**: Automatic via stitching generation for PCB zones  (中文版)
-- **Interactive HTML BOM (中文版)**: Interactive BOM generator with multi-CAD support
+- **Interactive HTML BOM**: Interactive BOM generator with multi-CAD support (中文版)
 - **KiCAD JLCPCB Tools (SZLCSC Edition)**: JLCPCB/立创商城 integration with online API
 - **JLCImport**: Component importer from JLCPCB/立创商城
 
