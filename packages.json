@@ -19,7 +19,8 @@
       },
       "license": "GPL-2.0",
       "resources": {
-        "homepage": "https://github.com/harry10086/kicad-action-scripts"
+        "homepage": "https://github.com/harry10086/kicad-action-scripts",
+        "icon": "https://github.mianao.info/https://raw.githubusercontent.com/harry10086/kicad-action-scripts/master/resources/icon.png"
       },
       "versions": [
         {
@@ -31,7 +32,10 @@
           "download_size": 44876,
           "download_url": "https://github.com/harry10086/kicad-action-scripts/releases/download/v1.0.5/ViaStitching.zip",
           "install_size": 100000,
-          "platforms": ["windows", "linux"]
+          "platforms": [
+            "windows",
+            "linux"
+          ]
         }
       ]
     },
@@ -54,7 +58,8 @@
       },
       "license": "MIT",
       "resources": {
-        "homepage": "https://github.com/harry10086/InteractiveHtmlBom"
+        "homepage": "https://github.com/harry10086/InteractiveHtmlBom",
+        "icon": "https://github.mianao.info/https://raw.githubusercontent.com/harry10086/InteractiveHtmlBom/master/releases/resources/icon.png"
       },
       "versions": [
         {
@@ -66,7 +71,11 @@
           "download_size": 159689,
           "download_url": "https://github.com/harry10086/InteractiveHtmlBom/releases/download/v2.11.1-zh/InteractiveHtmlBom_v2.11.1-zh_pcm.zip",
           "install_size": 730306,
-          "platforms": ["windows", "linux", "macos"]
+          "platforms": [
+            "windows",
+            "linux",
+            "macos"
+          ]
         }
       ]
     },
@@ -89,9 +98,25 @@
       },
       "license": "MIT",
       "resources": {
-        "homepage": "https://github.com/harry10086/kicad-jlcpcb-tools"
+        "homepage": "https://github.com/harry10086/kicad-jlcpcb-tools",
+        "icon": "https://github.mianao.info/https://raw.githubusercontent.com/harry10086/kicad-jlcpcb-tools/main/jlcpcb-icon.png"
       },
       "versions": [
+        {
+          "version": "3.9.1",
+          "status": "stable",
+          "kicad_version": "8.0",
+          "runtime": "ipc",
+          "download_sha256": "c46e10560d0425e4a19c94748a4e38f5bb1ab275aa9738df5be0808e0bcd7282",
+          "download_size": 206985,
+          "download_url": "https://github.com/harry10086/kicad-jlcpcb-tools/releases/download/v3.9.1/KiCAD-PCM-3.9.1.zip",
+          "install_size": 413970,
+          "platforms": [
+            "windows",
+            "linux",
+            "macos"
+          ]
+        },
         {
           "version": "3.9.0",
           "status": "testing",
@@ -101,7 +126,10 @@
           "download_size": 206664,
           "download_url": "https://github.com/harry10086/kicad-jlcpcb-tools/releases/download/v3.9.0/KiCAD-PCM-3.9.0.zip",
           "install_size": 614884,
-          "platforms": ["windows", "linux"]
+          "platforms": [
+            "windows",
+            "linux"
+          ]
         }
       ]
     },
@@ -124,7 +152,8 @@
       },
       "license": "MIT",
       "resources": {
-        "homepage": "https://github.com/harry10086/kicad_jlcimport"
+        "homepage": "https://github.com/harry10086/kicad_jlcimport",
+        "icon": "https://github.mianao.info/https://raw.githubusercontent.com/harry10086/kicad_jlcimport/main/resources/icon.png"
       },
       "versions": [
         {
@@ -136,7 +165,11 @@
           "download_size": 248832,
           "download_url": "https://github.com/harry10086/kicad_jlcimport/releases/download/v1.5.4/JLCImport-v1.5.4.zip",
           "install_size": 500000,
-          "platforms": ["windows", "linux", "macos"]
+          "platforms": [
+            "windows",
+            "linux",
+            "macos"
+          ]
         }
       ]
     }

@@ -1,16 +1,16 @@
 {
-    "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
-    "maintainer": {
-        "contact": {
-            "github": "https://github.com/harry10086"
-        },
-        "name": "Harry"
+  "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
+  "maintainer": {
+    "contact": {
+      "github": "https://github.com/harry10086"
     },
-    "name": "Harry's KiCAD Plugin Repository",
-    "packages": {
-        "sha256": "6b85a872ecd51b0ab23f9d86e941cac6d49bce6c6aaab5c1b075f58130dee7ac",
-        "update_time_utc": "2026-04-20 03:20:00",
-        "update_timestamp": 1776684000,
-        "url": "https://raw.githubusercontent.com/harry10086/kicad-repository/main/packages.json"
-    }
+    "name": "Harry"
+  },
+  "name": "Harry's KiCAD Plugin Repository",
+  "packages": {
+    "sha256": "7daa087f6d04dd81505b83b2dcc9c0cea42c4c83f82d230e8157b7d9ba3578fc",
+    "update_time_utc": "2026-04-21 03:09:18",
+    "update_timestamp": 1776712158,
+    "url": "https://github.mianao.info/https://raw.githubusercontent.com/harry10086/kicad-repository/main/packages.json"
+  }
 }
