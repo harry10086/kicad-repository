@@ -189,7 +189,7 @@
        "name": "Fanout Tool",
        "description": "Automate escape routing (fanout) for dense IC packages like QFN, QFP, and BGA",
        "description_full": "A powerful Python-based plugin to automate escape routing (fanout) for dense IC packages like SOIC, QFN, QFP, and BGA in KiCad. It features advanced 3-segment routing algorithms, staggered alignments, and full parameter control to generate clean, DRC-error-free tracks and vias instantly.",
-       "identifier": "com.github.harry10086.fanout-tool",
+       "identifier": "com.harry10086.fanout-tool",
        "type": "plugin",
        "runtime": {
          "type": "python",
