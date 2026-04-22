@@ -14,9 +14,9 @@
     "url": "https://github.mianao.info/https://raw.githubusercontent.com/harry10086/kicad-repository/main/packages.json"
   },
   "resources": {
-    "sha256": "ed8df0908edff415a78060c86c7ebd12d03b95097ad486fb6775485c545405bd",
-    "update_time_utc": "2026-04-21 10:22:30",
-    "update_timestamp": 1776741750,
+    "sha256": "229e9e8d9982ffbbd9e2aebf13b4cba84d65b7a34b612200af2c6ebad8e9b2cc",
+    "update_time_utc": "2026-04-22 06:04:39",
+    "update_timestamp": 1776837879,
     "url": "https://github.mianao.info/https://github.com/harry10086/kicad-repository/raw/main/icon/resources.zip"
   }
 }
