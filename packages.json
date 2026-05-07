@@ -168,13 +168,13 @@
       },
       "versions": [
         {
-          "version": "1.5.6",
+          "version": "1.5.7",
           "status": "stable",
           "kicad_version": "8.0",
           "runtime": "ipc",
-          "download_sha256": "2e606eee6150b39c76ffb7872fd171b1e36f5a5c09c189b75acb91d8fb7f53fe",
-          "download_size": 251410,
-          "download_url": "https://github.com/harry10086/kicad_jlcimport/releases/download/v1.5.6/JLCImport-v1.5.6.zip",
+          "download_sha256": "bd02472c7b7e2cacb3f62c4e7f948dace7eae6dbd841e6959c16f67384ba47b2",
+          "download_size": 251624,
+          "download_url": "https://github.com/harry10086/kicad_jlcimport/releases/download/v1.5.7/JLCImport-v1.5.7.zip",
           "install_size": 500000,
           "platforms": [
             "windows",
