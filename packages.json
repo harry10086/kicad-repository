@@ -166,62 +166,76 @@
       "resources": {
         "homepage": "https://github.com/harry10086/kicad_jlcimport"
       },
-       "versions": [
-         {
-           "version": "1.5.4",
-           "status": "stable",
-           "kicad_version": "8.0",
-           "runtime": "ipc",
-           "download_sha256": "abc123def456abc123def456abc123def456abc123def456abc123def456abc2",
-           "download_size": 248832,
-           "download_url": "https://github.com/harry10086/kicad_jlcimport/releases/download/v1.5.4/JLCImport-v1.5.4.zip",
-           "install_size": 500000,
-           "platforms": [
-             "windows",
-             "linux",
-             "macos"
-           ]
-         }
-       ]
-     },
-     {
-       "$schema": "https://go.kicad.org/pcm/schemas/v1",
-       "name": "Fanout Tool",
-       "description": "Automate escape routing (fanout) for dense IC packages like QFN, QFP, and BGA",
-       "description_full": "A powerful Python-based plugin to automate escape routing (fanout) for dense IC packages like SOIC, QFN, QFP, and BGA in KiCad. It features advanced 3-segment routing algorithms, staggered alignments, and full parameter control to generate clean, DRC-error-free tracks and vias instantly.",
-       "identifier": "com.harry10086.fanout-tool",
-       "type": "plugin",
-       "runtime": {
-         "type": "python",
-         "min_version": "3.10"
-       },
-       "author": {
-         "name": "Thanh Duong (zh fork Harry)",
-         "contact": {
-           "github": "https://github.com/thanhduongvs/kicad-fanout-tool"
-         }
-       },
-       "license": "MIT",
-       "resources": {
-         "homepage": "https://github.com/harry10086/kicad-fanout-tool"
-       },
-       "versions": [
-         {
-           "version": "1.1.0",
-           "status": "stable",
-           "kicad_version": "10.0",
-           "runtime": "ipc",
-            "download_sha256": "5bfdbfdca52f66d4c3fd7ed745af987755aedd6c24a951bead4eb60a3a10eb28",
-
-           "download_size": 78315,
-           "download_url": "https://github.mianao.info/https://github.com/harry10086/kicad-fanout-tool/releases/download/v1.1.0/fanout-tool-1.1.0.zip",
-           "install_size": 321801,
-           "platforms": [
-             "linux",
-             "windows"
-           ]
-         }
-       ]
-     }
-   ]
+      "versions": [
+        {
+          "version": "1.5.6",
+          "status": "stable",
+          "kicad_version": "8.0",
+          "runtime": "ipc",
+          "download_sha256": "7f7651c2b814aa1a182c30323c16d87ea3bbec71050aceaecce63eee46ead281",
+          "download_size": 142056348,
+          "download_url": "https://github.com/harry10086/kicad_jlcimport/releases/download/v1.5.6/jlcimport-cli-linux-x86_64.tar.gz",
+          "install_size": 284112696,
+          "platforms": [
+            "windows",
+            "linux",
+            "macos"
+          ]
+        },
+        {
+          "version": "1.5.4",
+          "status": "stable",
+          "kicad_version": "8.0",
+          "runtime": "ipc",
+          "download_sha256": "abc123def456abc123def456abc123def456abc123def456abc123def456abc2",
+          "download_size": 248832,
+          "download_url": "https://github.com/harry10086/kicad_jlcimport/releases/download/v1.5.4/JLCImport-v1.5.4.zip",
+          "install_size": 500000,
+          "platforms": [
+            "windows",
+            "linux",
+            "macos"
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "https://go.kicad.org/pcm/schemas/v1",
+      "name": "Fanout Tool",
+      "description": "Automate escape routing (fanout) for dense IC packages like QFN, QFP, and BGA",
+      "description_full": "A powerful Python-based plugin to automate escape routing (fanout) for dense IC packages like SOIC, QFN, QFP, and BGA in KiCad. It features advanced 3-segment routing algorithms, staggered alignments, and full parameter control to generate clean, DRC-error-free tracks and vias instantly.",
+      "identifier": "com.harry10086.fanout-tool",
+      "type": "plugin",
+      "runtime": {
+        "type": "python",
+        "min_version": "3.10"
+      },
+      "author": {
+        "name": "Thanh Duong (zh fork Harry)",
+        "contact": {
+          "github": "https://github.com/thanhduongvs/kicad-fanout-tool"
+        }
+      },
+      "license": "MIT",
+      "resources": {
+        "homepage": "https://github.com/harry10086/kicad-fanout-tool"
+      },
+      "versions": [
+        {
+          "version": "1.1.0",
+          "status": "stable",
+          "kicad_version": "10.0",
+          "runtime": "ipc",
+          "download_sha256": "5bfdbfdca52f66d4c3fd7ed745af987755aedd6c24a951bead4eb60a3a10eb28",
+          "download_size": 78315,
+          "download_url": "https://github.mianao.info/https://github.com/harry10086/kicad-fanout-tool/releases/download/v1.1.0/fanout-tool-1.1.0.zip",
+          "install_size": 321801,
+          "platforms": [
+            "linux",
+            "windows"
+          ]
+        }
+      ]
+    }
+  ]
 }

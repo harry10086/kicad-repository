@@ -18,6 +18,7 @@ To install plugins from this repository in KiCAD:
 - **Interactive HTML BOM**: Interactive BOM generator with multi-CAD support (中文版)
 - **KiCAD JLCPCB Tools (SZLCSC Edition)**: JLCPCB/立创商城 integration with online API
 - **JLCImport**: Component importer from JLCPCB/立创商城
+- **Fanout Tool**: Automated escape routing for dense IC packages (中文版)
 
 ## Adding New Plugins
 
