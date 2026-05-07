@@ -8,15 +8,15 @@
   },
   "name": "Harry's KiCAD Plugin Repository",
   "packages": {
-    "sha256": "aa4205357f8335dea87560355eee69af9f75dba58885fcd9c7d9bfe2c8671caf",
+    "sha256": "d4b839d5c571e037f37763982702ffccef120567c0e292b9a4cf929e39685639",
     "update_time_utc": "2026-05-07 01:24:31",
     "update_timestamp": 1778088271,
-    "url": "https://github.mianao.info/https://raw.githubusercontent.com/harry10086/kicad-repository/main/packages.json"
+    "url": "https://ghproxy.net/https://raw.githubusercontent.com/harry10086/kicad-repository/main/packages.json"
   },
   "resources": {
     "sha256": "229e9e8d9982ffbbd9e2aebf13b4cba84d65b7a34b612200af2c6ebad8e9b2cc",
     "update_time_utc": "2026-04-22 06:04:39",
     "update_timestamp": 1776837879,
-    "url": "https://github.mianao.info/https://github.com/harry10086/kicad-repository/raw/main/icon/resources.zip"
+    "url": "https://ghproxy.net/https://github.com/harry10086/kicad-repository/raw/main/icon/resources.zip"
   }
 }
