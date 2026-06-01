@@ -183,6 +183,21 @@
       },
       "versions": [
         {
+          "version": "1.5.9",
+          "status": "stable",
+          "kicad_version": "8.0",
+          "runtime": "ipc",
+          "download_sha256": "023535d7c7a0b7c5e9ba47f2be9adb16638b1cc85f82514e70bba2bafe9d4e4a",
+          "download_size": 252370,
+          "download_url": "https://github.com/harry10086/kicad_jlcimport/releases/download/v1.5.9/JLCImport-v1.5.9.zip",
+          "install_size": 504740,
+          "platforms": [
+            "windows",
+            "linux",
+            "macos"
+          ]
+        },
+        {
           "version": "1.5.8",
           "status": "stable",
           "kicad_version": "8.0",
